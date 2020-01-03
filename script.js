@@ -1,3 +1,8 @@
+let _ = require('lodash');
+
+let array = [1, 2, 3, 4, 5, 6, 4, 3];
+console.log('Answer:', _.without(array, 3));
+
 const css = document.querySelector("h3");
 const color1 = document.querySelector("#color1");
 const color2 = document.querySelector("#color2");
@@ -10,7 +15,7 @@ function setGradient() {
   + color1.value
   + ", "
   + color2.value
-  + ")"
+  + ")";
 
   css.textContent = body.style.background + ";";
 }

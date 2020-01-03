@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AQUIN0S/ztm-playing-with-npm/issues"
   },
-  "homepage": "https://github.com/AQUIN0S/ztm-playing-with-npm#readme"
+  "homepage": "https://github.com/AQUIN0S/ztm-playing-with-npm#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }
